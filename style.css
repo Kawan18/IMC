@@ -1,0 +1,53 @@
+@font-face {
+    font-family: font3;
+    src: url(./font/font3.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/71/31/77/713177e7b221e3d2570237268fd19c6e.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    text-align: center;
+    background: #add8e6b6;
+    border-bottom: black solid 3px;
+    padding: 10px;
+    font-family: font3;
+}
+.imc {
+    background: #add8e6b6;
+    margin-left: 15vh;
+    margin-top: 30vh;
+    margin-right: 145vh;
+    text-align: center;
+}
+label {
+    margin-left: 10px;
+}
+input {
+    display: flex;
+    margin-left: 42px;
+}
+button {
+    margin: 10px;
+}
+p {
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+h1 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 25vh;
+    padding: 10px;
+    background: #add8e6b6;
+    border-bottom: black solid 3px;
+    font-family: font3;
+}
